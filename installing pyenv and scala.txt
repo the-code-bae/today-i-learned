@@ -1,0 +1,52 @@
+
+// https://realpython.com/intro-to-pyenv/
+/ get dependencies
+brew install openssl readline sqlite3 xz zlib
+
+/ then try this to see if it works
+sudo installer -pkg /Library/Developer/CommandLineTools/Packages/macOS_SDK_headers_for_macOS_10.14.pkg -target /
+
+/ download pyenv
+curl https://pyenv.run | bash
+
+//web reference end here
+
+/ this is add 
+/ https://github.com/pyenv/pyenv#basic-github-checkout
+echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.zprofile
+echo 'export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.zprofile
+echo 'eval "$(pyenv init --path)"' >> ~/.zprofile
+
+echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.profile
+echo 'export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.profile
+echo 'eval "$(pyenv init --path)"' >> ~/.profile
+
+echo 'eval "$(pyenv init -)"' >> ~/.zshrc
+
+/ check 
+pyenv
+pyenv versions
+
+
+-- for installing apache spark
+// install x-code-select
+xcode-select --install
+
+//install java
+
+brew install cask java
+
+// install scala
+brew install scala
+
+//  install apache spark
+brew install apache-spark
+
+
+//start spark shell
+spark-shell
+
+
+//atom
+langauge-scala
+platformiio-ide-terminal
