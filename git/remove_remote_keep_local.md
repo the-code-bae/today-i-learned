@@ -26,3 +26,4 @@ Your files/folder should now be deleted!
 ## Sources
 - [mir4ef gist](https://gist.github.com/mir4ef/dfe0f8fa7e27633347c575510298e501)
 - [code grepper - git remove file but keep local](https://www.codegrepper.com/code-examples/shell/git+remove+file+but+keep+local)
+- [Removing sensitive data from a repository](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/removing-sensitive-data-from-a-repository)
