@@ -1,0 +1,4 @@
+prefect backend cloud
+prefect auth login --key ["YOUR KEY"]
+
+prefect agent local start
