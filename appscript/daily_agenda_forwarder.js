@@ -1,4 +1,5 @@
-//https://medium.com/@costaparas/time-based-forwarding-of-emails-with-google-apps-script-aff0b59a2f7b
+// https://medium.com/@costaparas/time-based-forwarding-of-emails-with-google-apps-script-aff0b59a2f7b
+// https://github.com/costaparas/Google-Apps-Script-Email-Forwarding
 
 //Daily Agenda Forwarder
 
