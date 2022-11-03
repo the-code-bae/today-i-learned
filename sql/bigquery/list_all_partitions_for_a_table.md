@@ -25,7 +25,8 @@ WHERE table_name = 'my_table_name'
 The how, why, any caveats?
 -->
 
-- Some notes
+- You can easily amend the query above to search for the min/max partitions!
+- It is more efficient to query the metadata of the table than to query the partitioned table itself, particularly when working with large tables that contain several GBs/TBs of data.
 
 ## Sources
 <!--
