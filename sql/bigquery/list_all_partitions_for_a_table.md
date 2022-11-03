@@ -14,9 +14,12 @@ How do you do it>
 -->
 
 ```sql
-SELECT partition_id
-FROM `my_project_name.my_dataset_name.INFORMATION_SCHEMA.PARTITIONS`
-WHERE table_name = 'my_table_name'
+SELECT 
+    partition_id
+FROM 
+    `my_project_name.my_dataset_name.INFORMATION_SCHEMA.PARTITIONS`
+WHERE 
+    table_name = 'my_table_name'
 ```
 
 

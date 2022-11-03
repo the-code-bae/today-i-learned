@@ -18,7 +18,7 @@ SELECT
 FROM 
     `my_project_name.my_dataset_name.INFORMATION_SCHEMA.COLUMN_FIELD_PATHS`
 WHERE 
-    TABLE_NAME = 'my_table_name'
+    table_name = 'my_table_name'
 ```
 
 
