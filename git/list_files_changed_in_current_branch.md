@@ -32,4 +32,4 @@ The how, why, any caveats?
 What links, blogs, articles helped you achieve this
 -->
 - [How to list files changed in current branch (and run prettier on them)](https://dev.to/darraghor/how-to-list-files-changed-in-current-branch-and-run-prettier-on-them-38oe)
-- [git diff docs]([https://git-scm.com/docs/git-diff](https://git-scm.com/docs/git-diff))
+- [git diff docs](https://git-scm.com/docs/git-diff#Documentation/git-diff.txt---diff-filterACDMRTUXB82308203)
