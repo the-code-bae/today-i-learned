@@ -14,7 +14,7 @@ How do you do it>
 -->
 
 ```commandline
-git branch --merged | egrep -v "dev|main" | xargs git branch -d
+git branch --merged | egrep -v "dev|main|master" | xargs git branch -d
 ```
 
 
